@@ -1,0 +1,21 @@
+.center-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.stopwatch-container{
+ margin-top: 150px;
+text-align: center;
+}
+
+.time-display{
+font-size:150px;
+margin-bottom: 20px;
+}
+
+.button-container{
+margin-top: 20px;
+}
+
