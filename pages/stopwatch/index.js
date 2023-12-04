@@ -13,6 +13,7 @@ const Stopwatch = () => {
         setTime((prevTime) => prevTime + 1);
       }, 1000);
       setIsRunning(true);
+      setIsRunning(true);
     }
   };
 
