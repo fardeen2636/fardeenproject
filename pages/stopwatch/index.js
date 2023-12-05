@@ -28,6 +28,7 @@ const Stopwatch = () => {
     clearInterval(intervalRef.current);
     setIsRunning(false);
     setTime(0);
+    setFlagEnteries([]);
   };
   const handleFlag = () => {
     if (isRunning !== null) {
