@@ -21,7 +21,7 @@ function Dec6() {
       })
       .then((resData) => {
         console.log("====success=========================", resData);
-        setUsers(resData.data); // Assuming the response has a 'data' property containing the user array
+        setUsers(resData.data); 
       })
       .catch((error) => {
         console.error("Error fetching data:", error.message);
