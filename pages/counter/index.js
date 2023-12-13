@@ -3,7 +3,7 @@ import React, {useState }from "react";
 
 function Count(){
    const [user, setUser] = useState({
-    name: "fardeen",
+    name: "User ",
     address:"Indore",
     age: 20,
 });           
@@ -15,16 +15,21 @@ const increaseAge = () => {
   };
 
   setUser (updatedUser);
+  console.log("====user=====",user)
 
 };
 
-
 return (
- <center style={{ marginTop: "40px"}}>
+ <center                
+ style={{  border: "40px solid #ccc",
+ padding: "20px",
+ marginTop: "40px"}}>
   <div>
+    <h2>
  <p>Name :{user.name} </p>
  <p>Age : {user.age} </p>
  <button onClick={increaseAge}>Increament</button>
+  </h2>
   </div>
  </center> 
 );
